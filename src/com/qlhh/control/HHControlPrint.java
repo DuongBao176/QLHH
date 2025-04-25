@@ -19,12 +19,8 @@ public class HHControlPrint {
 	}
 	
 	public void printHH() {
-		ArrayList<HangHoa> dsHH;
-		//gửi thông điệp đến đơi tượng HHPrintDAO
-		dsHH = hhPrintDAO.getDSHH();
-		
-		//gửi thông điệp cho đối tượng HHOutPRint
-		hhOutPrint.showDSHH(dsHH);
+	    ArrayList<HangHoa> dsHH = hhPrintDAO.getDSHH();
+	    hhOutPrint.showDSHH(dsHH);
 	}
 	
 	

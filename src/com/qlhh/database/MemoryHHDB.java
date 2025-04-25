@@ -14,11 +14,11 @@ public class MemoryHHDB {
 	static {
  		dbHH = new ArrayList<HangHoa>();
  		//tạo dữ liệu sẵn có cho DB
- 		HangDienMay hDM = new HangDienMay(0, "tủ lạnh", 0, 0, 0, 0);
+ 		HangDienMay hDM = new HangDienMay(0, "a", 0, 0, 0, 0);
  				
- 		HangSanhSu hSS = new  HangSanhSu(0, "ly", 0, 0, null, 0);
+ 		HangSanhSu hSS = new  HangSanhSu(0, "a", 0, 0, null, 0);
  				
- 		HangThucPham hTP = new HangThucPham(0, "sữa", 0, 0, 0, 0, null);
+ 		HangThucPham hTP = new HangThucPham(0, "a", 0, 0, 0, 0, null);
  				
  		
  		dbHH.add(hDM);

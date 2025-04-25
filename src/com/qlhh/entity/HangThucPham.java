@@ -10,7 +10,7 @@ public class HangThucPham extends HangHoa{
 	}
 
 	public HangThucPham(int maHang, String tenHang, int soLuong, double donGia, int ngaySanXuat, int ngayHetHan, String nhaCungCap) {
-		super(maHang, tenHang, soLuong, donGia);
+		super(tenHang, maHang, soLuong, donGia);
 		this.ngaySanXuat = ngaySanXuat;
 		this.ngayHetHan = ngayHetHan;
 		this.nhaCungCap = nhaCungCap;

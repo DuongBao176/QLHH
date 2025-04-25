@@ -64,14 +64,14 @@ public class HHMenu {
 				add();
 				continue;
 			}
-			if ("pALL".equalsIgnoreCase(command)) {
-				printALLHH();
+			if ("print".equalsIgnoreCase(command)) {
+				printHH();
 				continue;
 			}
 		}
 	}
 
-	private void printALLHH() {
+	private void printHH() {
 		hhControlPrint.printHH();
 
 	}

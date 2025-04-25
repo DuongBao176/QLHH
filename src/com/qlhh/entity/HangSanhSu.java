@@ -9,7 +9,7 @@ public class HangSanhSu extends HangHoa{
 	}
 
 	public HangSanhSu(int maHang, String tenHang, int soLuong, double donGia, String nhaSanXuat, int ngayNhapKho) {
-		super(maHang, tenHang, soLuong, donGia);
+		super(tenHang, maHang, soLuong, donGia);
 		this.nhaSanXuat = nhaSanXuat;
 		this.ngayNhapKho = ngayNhapKho;
 	}
